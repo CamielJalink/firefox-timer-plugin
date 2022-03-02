@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "firefox-timer",
+  "version": "1.0",
+
+  "description": "Keeps track of how much time you spend on your favorite websites.",
+  "icons": {
+    "48": "icons/icons8-clock-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["firefox-timer.js"]
+    }
+  ]
+}
