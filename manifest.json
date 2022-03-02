@@ -2,10 +2,14 @@
   "manifest_version": 2,
   "name": "firefox-timer",
   "version": "1.0",
-
   "description": "Keeps track of how much time you spend on your favorite websites.",
+  "homepage_url": "https://github.com/CamielJalink/firefox-timer-plugin",
   "icons": {
     "48": "icons/icons8-clock-48.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/icons8-clock-32.png",
+    "default_title": "Firefox Timer"
   },
   "content_scripts": [
     {
